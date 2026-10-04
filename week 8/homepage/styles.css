@@ -1,0 +1,24 @@
+#name {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #FF0000;
+    opacity: 1;
+}
+
+.about{
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    color: black;
+    opacity: 0.75;
+}
+
+li:ho ver {
+    color: blue;
+}
+
+h4.about {
+    color: orangered;
+}
