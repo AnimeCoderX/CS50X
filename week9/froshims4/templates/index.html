@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<form action="/register" method="POST">
+    <input type="text" name="name">
+    <select name="sport">
+        <option>Basketball</option>
+        <option>Soccer</option>
+        <option>Ultimate Frisbee</option>
+    </select>
+    <button type="submit">Register</button>
+</form>
+
+{% endblock %}
