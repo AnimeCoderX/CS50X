@@ -1,0 +1,249 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 20px 30px;
+}
+
+header .logo h1 {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f39c12;
+}
+
+/* Centering Content for Football Records Section */
+#home, .content {
+    text-align: center; /* This will center the content of this section */
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+#home h1, .content h2 {
+    font-size: 32px;
+    color: #f39c12;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Centering the Content Inside the Football Records Section */
+#home p {
+    font-size: 20px;
+    color: #555;
+
+}
+
+/* About Me Section */
+#about-me {
+    background-color: #111; /* Restores black background */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+#about-me h2 {
+    color: white;
+    font-size: 36px;
+}
+
+#about-me p {
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Box Around the Heading (Ballon d'Or, World Cup, etc.) */
+.page-content h2 {
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; /* Ensures the box surrounds the heading */
+    margin-bottom: 20px;
+}
+
+/* Center the table on the page */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Styling the table */
+table.winner-table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Box background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 10px;
+}
+
+table.winner-table th, table.winner-table td {
+    padding: 15px 30px;  /* Increase padding for space between columns */
+    text-align: center;
+    border: 1px solid #ddd; /* Light border */
+}
+
+/* Styling header */
+table.winner-table th {
+    background-color: #333;
+    color: yellow;
+    font-size: 18px;
+}
+
+/* Alternate row background for readability */
+table.winner-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table row hover effect */
+table.winner-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Center the table on the page */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Styling the table */
+table.winner-table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Box background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 10px;
+}
+
+table.winner-table th, table.winner-table td {
+    padding: 15px 30px;  /* Increase padding for space between columns */
+    text-align: center;
+    border: 1px solid #ddd; /* Light border */
+}
+
+/* Styling header */
+table.winner-table th {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+/* Alternate row background for readability */
+table.winner-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table row hover effect */
+table.winner-table tr:hover {
+    background-color: #e6e6e6;
+}
+
+/* Styling for images in content */
+.content-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+/* Styling for Each Image */
+.page-content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #f39c12;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Footer Specific */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
