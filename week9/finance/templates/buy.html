@@ -1,0 +1,20 @@
+<!-- buy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Stock</title>
+</head>
+<body>
+    <h1>Buy Stock</h1>
+    <form action="/buy" method="POST">
+        <label for="symbol">Ticker Symbol:</label>
+        <input type="text" id="symbol" name="symbol" required><br><br>
+
+        <label for="shares">Number of Shares:</label>
+        <input type="text" id="shares" name="shares" required><br><br>
+
+        <button type="submit">Buy</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Quote</title>
+</head>
+<body>
+    <h1>Stock Quote</h1>
+
+    <!-- Form to enter a stock symbol -->
+    <form method="post">
+        <input type="text" name="symbol" placeholder="Enter stock symbol" required>
+        <button type="submit">Get Quote</button>
+    </form>
+
+    <!-- Display stock data if available -->
+    {% if stock %}
+        <h2>{{ stock.name }}</h2>
+        <p>Price: ${{ "%.2f" | format(stock.price) }}</p>
+    {% endif %}
+</body>
+</html>
